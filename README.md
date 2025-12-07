@@ -1,17 +1,24 @@
 # AI-Powered Predictive Maintenance System
-Overview
+## Overview
+
 This repository contains the Capstone Project for ITAI 2272: An AI-driven predictive maintenance system for industrial equipment, built using the NASA CMAPSS Turbofan Engine Degradation dataset (FD001). The system predicts equipment failures and Remaining Useful Life (RUL) to minimize downtime and optimize maintenance schedules.
-Key achievements:
 
-98% accuracy in failure prediction using Random Forest.
-<15 cycle MAE in RUL forecasting using optimized LSTM models.
-Simulated 40% downtime reduction and 25% cost savings.
+ ## Key achievements:
+ 
+- 98% accuracy in failure prediction using Random Forest.
+- <15 cycle MAE in RUL forecasting using optimized LSTM models.
+- Simulated 40% downtime reduction and 25% cost savings.
 
-Features
+## Features
 
-Data preprocessing, feature engineering, and sensor analysis.
-Machine learning models: Random Forest for binary failure classification; LSTM for RUL regression.
-Hyperparameter tuning with Optuna and cross-validation.
-Explainable AI via SHAP values.
-Simulated Streamlit dashboard for real-time monitoring and alerts.
-Full system testing, integration, and deployment preparation (Docker-ready).
+- Data preprocessing, feature engineering, and sensor analysis.
+- Machine learning models: Random Forest for binary failure classification; LSTM for RUL regression.
+- Hyperparameter tuning with Optuna and cross-validation.
+- Explainable AI via SHAP values.
+- Simulated Streamlit dashboard for real-time monitoring and alerts.
+- Full system testing, integration, and deployment preparation (Docker-ready).
+  
+## Dataset
+
+- NASA CMAPSS (FD001): Sensor data from 100 training and 100 test turbofan engines.
+- Focus: Single operating condition, single failure mode.
